@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	  <style>
-		html,body {
+<style>
+	  html,
+body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
   -webkit-font-smoothing: antialiased;
@@ -67,13 +68,13 @@ h1,h2,h3,h4 {
 }
 
 header {
-  background: #FFA319;
+  background: linear-gradient(to bottom right, #3CA55C, #B5AC49);
   height:200px;
   color:#CCCCCC;
 }
 
 header h1,header h2,header h3 a,header a,header a:hover {
-  color:#292929;
+  color:/*#292929*/ white;
   font-weight:800;
   text-decoration:none;
 }
@@ -192,7 +193,8 @@ section {
 }
 
 .bg-1 {
-  background: url('http://www.sherrydramsey.com/wp-content/uploads/2010/07/venice_twilight.jpeg') no-repeat center center fixed;
+  /*background: url('http://www.sherrydramsey.com/wp-content/uploads/2010/07/venice_twilight.jpeg') no-repeat center center fixed;*/
+  background: url('https://static.pexels.com/photos/212286/pexels-photo-212286.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -208,7 +210,8 @@ section {
 }
 
 .bg-3 {
-  background: url('http://www.wallpowper.com/wallpaper/wallpaper/wallpaper-famous-paintings-art-iphone-famous-paintings-wallpaper-wallpapers-designers-for-mobile-desktop-facebook-laptop-quotes-download-brands-artists.jpg') no-repeat center center fixed;
+  //background: url('http://www.wallpowper.com/wallpaper/wallpaper/wallpaper-famous-paintings-art-iphone-famous-paintings-wallpaper-wallpapers-designers-for-mobile-desktop-facebook-laptop-quotes-download-brands-artists.jpg') no-repeat center center fixed;
+  background: url('http://www.sherrydramsey.com/wp-content/uploads/2010/07/venice_twilight.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -219,218 +222,689 @@ section {
   padding-top:30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(20,20,20,0.2)),to(rgba(255,255,255,0)), color-stop(1,#000));
 }
-		  
-	  </style>
+</style>
   </head>
-  <body>
-   <div id="wrap">
-  <header class="masthead"><!--header starts here-->
-    <div class="container"><!--container starts here-->
-      <div class="row"><!--row starts here-->
-        <div class="col-md-6"><!--col-md-6 starts here-->
-        <h1 class="text-center"><a href="#" title="bootstrap-header">Abhinav Sinha</a>
-        <p class="lead text-center"> Graduate Student Researcher</p>
+ <body>
+	<!--wrap contains all the page content -->
+	<div id="wrap">
+		<header class="masthead"><!--header starts here-->
+			<div class="container"><!--container starts here-->
+				<div class="row"><!--row starts here-->
+					<div class="col-md-6"><!--col-md-6 starts here-->
+						<h1 class="text-center"><a href="#" title="bootstrap-header">Abhinav Sinha</a>
+							<p class="lead text-center"> Post Graduate Researcher</p>
 
-        </h1>
-
-
-      </div><!--col-md-6 ends here-->
+						</h1>
 
 
-
-        <div class="col-md-6"><!--col-md-6 starts here-->
-          <div class="pull-right  hidden-xs">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><h3><i class="glyphicon glyphicon-cog"></i></h3></a>
-                <ul class="dropdown-menu">
-              <li><a href="#"><i class="glyphicon glyphicon-chevron-right"></i>abc</a></li>
-              <li><a href="#"><i class="glyphicon glyphicon-user"></i>def</a></li>
-              <li><a href="#"><i class="glyphicon glyphicon-lock"></i>ghj</a></li>
-              <li><a href="#"><i class="glyphicon glyphicon-cog"></i>jkl</a></li>
-            </ul>
-        </div>
-        </div><!--col-md-6 ends here-->
-
-      </div><!--row ends here-->
-    </div><!--container ends here-->
-
-  </header><!--header ends here -- >
-
-    <!--fixed navbar starts here-->
-    <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#section2">About me</a></li>
-            <li><a href="#section3">CV</a></li>
-            <li><a href="#section1">Research</a></li>
-            <li><a href="#section4">Publication</a></li>
-            <li><a href="#section5">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div><!--/.container -->
-    </div><!--/.navbar -->
-
-  <!--fixed navbar ends here-->
-
-<!--page begins here-->
-<div class="divider" id="section1">
-
-</div>
-
-
-<div class="container"><!-- container starts-->
-<div class="col-sm-10 col-sm-offset-1">
-  <div class="page header text-center">
-    <h1>Duis aute irure dolor in reprehenderit in voluptate</h1>
-  </div>
-  <p class="lead text-center">fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa .</p>
-  <p class="text-center">fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-</div>
-</div><!-- container ends-->
-
-<div class="divider" id="section2">
-</div>
-<section class="bg-1">
-  <div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Aenean imperdiet. Etiam ultricies nisi vel augue. </h2>
-  </div>
-
-
-</section>
-
-<div class="divider">
-</div>
-
-
-<div class="container" id="section3">
-  <div class="col-sm-8 col-sm-offset-2 text-center">
-    <h1>Nullam dictum felis eu pede </h1>
-    <p> Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui</p>
-    <img src="smart_phone.png" alt="smartphone" class="img-responsive">
-  </div><!--col-->
-</div><!--container ends here-->
-<div class="divider">
-</div>
-<section class="bg-3"id="section4">
-  <div  class="col-sm-6 col-sm-offset-3 text-center">
-    <h2 style="paddind:70px; background-color:rgba(5,5,4,.7); color: white;"> Eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.Maecenas tempus, tellus eget condimentum</h2>
-  </div>
-</section>
+					</div><!--col-md-6 ends here-->
 
 
 
-<div class="container bg-4">
-  <div class="row">
-    <div class="col-sm-4 col-xs-6">
-      <div class="panel panel-default">
-        <div><img src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/HD-landscape-Photographs-3.jpg" class="img-responsive"></div>
-        <div class="panel-body">
-          <p class="lead">Hacker News</p>
-          <p>120k Followers, 900 Posts</p>
-
-          <p>
-            <img src="https://lh4.googleusercontent.com/-9Yw2jNffJlE/AAAAAAAAAAI/AAAAAAAAAAA/u3WcFXvK-g8/s28-c-k-no/photo.jpg" width="28px" height="28px">
-          </p>
-        </div>
-      </div><!--/panel-->
-    </div><!--/col-->
-
-    <div class="col-sm-4 col-xs-6">
-
-      <div class="panel panel-default" style="height: 700;">
-        <div class="panel-thumbnail"><img src="http://www.hdwallpapersinn.com/wp-content/uploads/2015/01/Landscape-wallpapers-1.jpeg" class="img-responsive"></div>
-        <div class="panel-body">
-          <p class="lead">personal template</p>
-          <p>902 Followers, 88 Posts</p>
-
-          <p>
-            <img src="https://lh5.googleusercontent.com/-AQznZjgfM3E/AAAAAAAAAAI/AAAAAAAAABA/WEPOnkQS_20/s28-c-k-no/photo.jpg" width="28px" height="28px">
-          </p>
-        </div>
-      </div><!--/panel-->
-    </div><!--/col-->
 
 
-    <div class="col-sm-4 col-xs-6">
+				</div><!--row ends here-->
+			</div><!--container ends here-->
 
-      <div class="panel panel-default">
-        <div class="panel-thumbnail"><img src="http://wallpaperput.com/wp-content/uploads/2015/01/landscape-mountain-flower-wallpaper.jpg" class="img-responsive"></div>
-        <div class="panel-body">
-          <p class="lead">Social Media</p>
-          <p>19k Followers, 789 Posts</p>
+		</header><!--header ends here -- >
 
-          <p>
-            <img src="https://lh4.googleusercontent.com/-eSs1F2O7N1A/AAAAAAAAAAI/AAAAAAAAAAA/caHwQFv2RqI/s28-c-k-no/photo.jpg" width="28px" height="28px">
-            <img src="https://lh4.googleusercontent.com/-9Yw2jNffJlE/AAAAAAAAAAI/AAAAAAAAAAA/u3WcFXvK-g8/s28-c-k-no/photo.jpg" width="28px" height="28px">
-          </p>
-        </div>
-      </div><!--/panel-->
+		<!--fixed navbar starts here-->
+		<div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav ">
+						<li><a href="#">Home</a></li>
+						<li><a href="#section2">About me</a></li>
+						<li><a href="#section3">Education</a></li>
+						<li><a href="#section1">Research Publications</a></li>
+						<li><a href="#section4">Experience</a></li>
+						<li><a href="#section5">Awards and Honors</a></li>
+						<li><a href="#section6">Contact</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Separated link</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container -->
+		</div><!--/.navbar -->
 
-    </div><!--/col-->
+		<!--fixed navbar ends here-->
 
-  </div>
+		<!--page begins here-->
+		
 
-  <div class="container">
-  <div class="col-sm-8 col-sm-offset-2 text-center">
-    <h2>Beautiful Personal Templates</h2>
+		<section class="bg-1" style="margin-top: -20px;">
+			<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Quotes By Abhinav Sinha.</h2>
+			</div>
+		</section>
+		<div class="divider">
+		</div>
+		<div class="container"><!-- container starts-->
+			<div class="col-sm-10 col-sm-offset-1">
+				<div class="page header text-center">
+					<h1>Duis aute irure dolor in reprehenderit in voluptate</h1>
+				</div>
+				<p class="lead text-center">fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa .</p>
+				<p class="text-center">fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+			</div>
+		</div><!-- container ends-->
 
-    <hr>
-    <h4>
-      Nam quam nunc, blandit vel, luctus pulvinar, hendrerit
-    </h4>
-    <p>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed  <a href="http://bootply.com">Find more on</a>,facebook.</p>
-    <hr>
-    <ul class="list-inline center-block" id="social_icons">
-      <li><a href="http://facebook.com/"><img src="http://xiloaudio.com/wp-content/uploads/2014/08/soc_fb.png" width="42" height="42"></a></li>
-      <li><a href="http://twitter.com/"><img src="data:image/png;base64,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" width="42" height="42"></a></li>
-      <li><a href="http://google.com/"><img src="https://www.fiswebdesign.com/wp-content/uploads/2014/07/google-plus-social-media-management.jpg" width="42" height="42"></li>
-    </ul>
-
-  </div><!--/col-->
-</div><!--/container-->
-
-  </div><!--row-->
-</div><!--conatiner bg-4-->
-
+		<div class="divider" id="section2">
+		</div>
+		
 
 
-<!--page ends here-->
+		<div class="container" id="section3">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h2>Education</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>Masters of Technology(2016-2018)</p>
+				</div>
+
+				<div class="col-md-8">
+					Indian Institute of Engineering Science &
+					Technology, Shibpur, India
+					GPA: 8.5 · Specialization: Mechatronics & Robotics · School: Mechatronics and Robotics
+					Thesis: Cooperative control of multiple mobile agents for locating source of odor
+					(ongoing work)
+					Description: This thesis explores the challenge of locating source of an odor via
+					non bio inspired computing algorithms and a control systems point of view.
+					With the obvious advantages of multiple robots over a single robot such as
+					flexibility, robustness, scalability; this work focuses on the distributed
+					coordinated control of multiple robots deployed in an environment to locate an
+					odor source.
+					Advisor: Dr. Amol Bhondekar
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					Bachelor of Technology(2010- 2014)
+				</div>
+
+				<div class="col-md-8">
+					Kalinga Institute of Industrial Technology (KIIT
+					University), India
+					GPA: 8.48 · Major: Electronics & Instrumentation engineering · School:
+					Electronics Engineering
+					Thesis: Automated PID tuning of line follower robot
+					Description: This project report on automated PID tuning of line follower
+					robots describes an effective way of controlling line following robots, i.e., a
+					category of mobile robots via a simple yet effective control methodology based
+					on classic Proportional-Integral-Derivative control. The conventional way of
+					running, testing and implementing line follower robots is based on providing
+					certain conditions to the robot in the form of a computer program and it has to
+					move according to the conditions provided for different paths. However, this
+					does not make the robot capable of taking decisions such as how to overcome
+					the wobbling and to reduce the error that may creep in the form of deviation
+					from the current position or say, overshoot from the line. To achieve the
+					objective of enabling the robot to correct these moves on its own or to enable
+					the robot to control and reduce the overshoot so as to stay on course, providing
+					smoothness, we have implemented Proportional-Integral-Derivative control
+					based on the informations that can be gathered from the movement of the
+					robot.
+					Advisor: Prof. Rajiv Kumar Mishra
+				</div>
+			</div>
+			<!--col-->
+		</div><!--container ends here-->
+		<div class="divider">
+		</div>
+		<section class="bg-3" id="section4">
+			<div  class="col-sm-6 col-sm-offset-3 text-center">
+				<h2 style="paddind:70px; background-color:rgba(5,5,4,.7); color: white;"> Eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.Maecenas tempus, tellus eget condimentum</h2>
+			</div>
+		</section>
+
+		<div class="container" id="section1">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h2>Refereed Jounrnals</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>IEEE</p>
+				</div>
+
+				<div class="col-md-8">
+					Under Review
+					<hr/>
+					Consensus tracking in multi agent system with nonlinear and non identical
+					dynamics via event driven sliding modes, under review, IEEE Transactions on
+					Automatic Control.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					Taylor & Francis
+				</div>
+
+				<div class="col-md-8">
+					Under Review
+					<hr/>
+					Consensus in first order nonlinear heterogeneous multi agent system with
+					event based sliding mode control, under review, International Journal of Control.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					Springer
+				</div>
+				<div class="col-md-8">
+					Under Review
+					<hr/>
+					Consensus in second order heterogeneous multi agent systems using event
+					triggered sliding mode control, under review, Multidimensional Systems and Signal
+					Processing.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					Elseiver
+
+				</div>
+
+				<div class="col-md-8">
+					Control of a nonlinear continuous stirred tank reactor via event triggered
+					sliding modes, under review, Chemical Engineering Science.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+				</div>
+				<div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+
+				<div class="col-md-8">
+					Under Review
+					<hr/>
+
+					Event driven sliding mode for congestion control in cognitive radio networks,
+					under review, IEEE Communication Letters.
+					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					Springer
+				</div>
+				<div class="col-md-8">
+					Under review
+					<hr/>
+					Congestion control in Cognitive Radio Networks with event triggered sliding
+					mode, under review, Wireless Networks.
+					Authors: Tirtha Majumder, Rajiv Kumar Mishra, Abhinav Sinha, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					International Journal of Electronics and Communication Technology
+				</div>
+				<div class="col-md-8">
+					January 2015
+					<hr/>
+					Nonlinear autonomous altitude control of miniature helicopter UAV based on
+					sliding mode methodology, International Journal of Electronics and Communication
+					Technology, vol. 61, spl.- 1, Jan- Mar 2015, proceedings of International Conference on
+					Foundatons and Frontiers in Computer, Communication and Electrical Engineering
+					(C2E2 ‘15), Mankundu, India, 9th-10th January, 2015.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+				</div>
+			</div>
+
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h2>Peer Reviewed Conference Proceedings</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+
+				<div class="col-md-8">
+					Under Review
+					<hr/>
+					Temperature regulation in a Continuous Stirred Tank Reactor using event
+					triggered sliding mode control, under review, Indian Control Conference 2018,
+					Indian Institute of Technology, Kanpur, India, 4th-6th January, 2018.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					October 2015
+					<hr/>
+					Robust nonlinear congestion controller for time delayed and uncertain cognitive
+					radio based wireless network, 2015 IEEE Power, Communication and Information
+					Technology Conference (PCITC), Bhubaneswar, India, 15th-17th October, 2015.
+					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					March 2015
+					<hr/>
+					Sliding mode controller design for high performance of permanent magnet
+					stepper motor, 2015 IEEE International Conference on Innovations in Information,
+					Embedded and Communication Systems (ICIIECS), Coimbatore, India, 19th-20th
+					March, 2015.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra, Tirtha Majumder
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					March 2015
+					<hr/>
+					Robust altitude tracking of a miniature helicopter UAV based on sliding mode,
+					2015 IEEE International Conference on Innovations in Information, Embedded and
+					Communication Systems (ICIIECS), Coimbatore, India, 19th-20th March, 2015.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					March 2015
+					<hr/>
+					Robust nonlinear congestion controller for cognitive radio based wireless
+					network, 2015 IEEE International Conference on Innovations in Information,
+					Embedded and Communication Systems (ICIIECS), Coimbatore, India, 19th-20th
+					March, 2015.
+					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					Feburary 2015
+					<hr/>
+					Robust and Smooth Nonlinear Control of an Industrial Robot for Automated
+					Pick and Place, 2015 IEEE International Conference on Computing Communication
+					Control and Automation (ICCUBEA), Pune, India, 26th-27th February, 2015.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra, Supratik Jaiswa
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					January 2015
+					<hr/>
+					Nonlinear Autonomous Control of a Two-Wheeled Inverted Pendulum Mobile
+					Robot Based on Sliding Mode, 2015 IEEE International Conference on
+					Computational Intelligence and Networks (CINE), Bhubaneswar, India, 12th-13th
+					January, 2015.
+					Authors: Abhinav Sinha, Pikesh Prasoon, Prashant Kumar Bharadwaj,
+					Anuradha C. Ranasinghe
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+
+				<div class="col-md-8">
+					December 2014
+					<hr/>
+					Perturbing effect compensation technique for smart sensors, 7th IEEE
+					International Conference on Information and Automation for Sustainability (ICIAfS),
+					Colombo, Sri Lanka, 22nd-24th Dece,ber, 2014.
+					Authors: Anuradha C. Ranasinghe, Lahiru K. Rasnayake, Abhinav Sinha,
+					Kavinda K. Rasnayake
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					December 2014
+					<hr/>
+					Smooth sliding mode controller design for robotic arm, 2013 International
+					Conference on Control, Automation, Robotics and Embedded Systems (CARE),
+					Jabalpur, India, 16th-18th December, 2013.
+					Authors: Anuradha C. Ranasinghe, Lahiru K. Rasnayake, Abhinav Sinha,
+					Kavinda K. Rasnayake
+				</div>
+			</div>
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h2>Book Chapters</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					CRC Press/ Taylor & Francis Group
+				</div>
+				<div class="col-md-8">
+					January 2016
+					<hr/>
+					Smooth sliding mode control of a nonlinear CSTR using an inverse hyperbolic
+					function-based law, Foundations and Frontiers in Computer, Communication and
+					Electrical Engineering: Proceedings of 3rd International Conference C2E2, Mankundu,
+					West Bengal, India, 15th-16th January, 2016.
+					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					CRC Press/ Taylor & Francis Group
+				</div>
+				<div class="col-md-8">
+					January 2016
+					<hr/>
+					Congestion control in Cognitive Radio Networks using fractional order rate
+					reaching law based sliding modes, Foundations and Frontiers in Computer,
+					Communication and Electrical Engineering: Proceedings of 3rd International
+					Conference C2E2, Mankundu, West Bengal, India, 15th-16th January, 2016.
+					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu
+				</div>
+			</div>
+			<!--col-->
+		</div><!--container ends here-->
+
+		<section class="bg-1">
+			<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Aenean imperdiet. Etiam ultricies nisi vel augue. </h2>
+			</div>
+
+
+		</section>
+
+		<div class="divider">
+		</div>
+
+		<div class="container" id="section7">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h2>Experience</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					Central Scientific Instruments Organisation, Council of Scientific and Industrial Research(CSIR-CSIO),India 
+				</div>
+				<div class="col-md-8">
+					<span>Jun'17 - Present </span>&nbsp;&nbsp;<span>Graduate Student Researcher</span>
+					<hr/>
+					The M. Tech programme of Mechatronics and Robotics, in which I am enrolled,
+					is jointly offered by School of Mechatronics and Robotics, Indian Institute of
+					Engineering Science and Technology, Shibpur, India and three CSIR labsCentral Scientific Instruments Organization, Chandigarh UT, India; Central
+					Electronics Enginnering Research Institute, Pilani, India; and Central
+					Mechanical Engineering Research Institute, Durgapur, India. My coursework
+					was completed in IIEST-S during 2016-17 post which I am working towards
+					coordinated control of multiple mobile robots for odor source localization at
+					CSIR- CSIO. This project is a part of olfaction research at CSIR- CSIO.
+					Website: CSIR, CSIO
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					TATA Consultancy Services Limited
+				</div>
+				<div class="col-md-8">
+					<span>Sep'14 - Jul'16</span>&nbsp;&nbsp;<span>Consultant, Automation & Control Systems</span>
+					<hr/>
+
+					Worked on tools like WinCC SCADA, Kepware, Step7, Prosoft, etc. for Control
+					System Integration (CSI); GE IP Proficy Suite, SAP ME, etc. for Manufacturing
+					Execution Systems (MES); and SAP MII for Enterprise Manufacturing
+					Intelligence (EMI). Integrated data from factory floor machines with business
+					layers for various productivity applications like reporting, dashboarding,
+					monitoring, etc. Configured multi master and sensor data integration directly
+					to cloud. Provided plant network security and segmentation for several new
+					manufacturing units. Worked towards enhancing efficiency in Manufacturing
+					Operations Management (MOM).
+					Website: TCS
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					TATA Consultancy Services Limited- Global Learning Centre,
+					Trivandrum,India
+				</div>
+				<div class="col-md-8">
+					<span>Nov'15</span>&nbsp;&nbsp;<span>Visiting Faculty, EIS talent Development</span>
+					<hr/>
+					Visited TCS Global Learning Centre at Trivandrum, India to impart hands on
+					training on Manufacturing Operations Management (MOM) and the role of
+					web technologies such as HTML, CSS, JavaScript, etc. in it. The training
+					subjects were of diverse background with a majority having a major in
+					mechanical engineering. Introduced concepts of flow of data from factory floor
+					to managerial layer and cloud; machine logic and business logic; and other
+					aspects of role of engineering and IT in manufacturing.
+					Website: TCS
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					TATA Steel, India
+				</div>
+				<div class="col-md-8">
+					<span>May - Jun'13</span>&nbsp;&nbsp;<span>Engineering Intern</span>
+					<hr/>
+					Learnt how TATA Steel manages everything from science and technology to
+					management, planning to execution and conception of idea to product
+					development. My focus was on the applied study of functioning of one of the
+					largest synchronous motors in Asia commisioned at TATA Steel which uses
+					Siemens Sinamics drive system to operate, and triggers the blower which is
+					connected to blast furnaces.
+					Website: TATA Steel
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					Bharat Sanchar Nigam Limited, India
+				</div>
+				<div class="col-md-8">
+					<span>May - Jun'12</span>&nbsp;&nbsp;<span>Vacation Trainee and Intern </span>
+					<hr/>
+					Learnt the functioning of telecom system and was able to do a thorough study
+					Nigam Limited,
+					India
+					of the functioning and behaviour of telecom system and exchanges and other
+					networks. Theoretical courses covered transmission of signals and telecom
+					operations, WiMax technologies, multimedia, internet and voice services,
+					broadband, etc. The training also involved a field study of Base Transceiver
+					Stations in the circle.
+					Website: BSNL
+				</div>
+
+			</div>
+
+
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<h2>Position Held</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE CSS-Indian Control Conference
+				</div>
+
+				<div class="col-md-8">
+					<span>Jul'14 - Present</span>&nbsp; &nbsp;<span>Reviewer, Indian Control Conference - India</span>
+					<hr/>
+					Responsibilities include reviewing research articles on systems and control
+					theory, and applications for the prestigious Indian Control Conference in
+					association with IEEE Control Systems Society at Indian Institutes of
+					Technology.
+					Website: Indian Control Conference
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					IEEE
+				</div>
+				<div class="col-md-8">
+					<span>Mar - Aug'19</span>&nbsp;&nbsp;<span>Designated researcher reviewer on the technical program comittee, 3rd INTERNATIONAL CONFERENCE ON ELECTRONIC DESIGN - Phuket, Thailand </span>
+					<hr/>
+					Being a research reviewer, my responsibilities included analysis of research
+					work in various tracks in Control Systems, Mechatronics, Embedded
+					Electronics, Robotics, and Nonlinear Circuits and Systems for the 2016 IEEE 3rd
+					International Conference on Electronic Design (ICED 2016) at Phuket, Thailand.
+					Website: ICED 2016
+				</div>
+			</div>
+
+			
+
+
+
+		</div>
+
+
+
+
+		<div class="container bg-4">
+			<div class="row">
+				<div class="col-sm-4 col-xs-6">
+					<div class="panel panel-default">
+						<div><img src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/HD-landscape-Photographs-3.jpg" class="img-responsive"></div>
+						<div class="panel-body">
+							<p class="lead">Hacker News</p>
+							<p>120k Followers, 900 Posts</p>
+
+							<p>
+								<img src="https://lh4.googleusercontent.com/-9Yw2jNffJlE/AAAAAAAAAAI/AAAAAAAAAAA/u3WcFXvK-g8/s28-c-k-no/photo.jpg" width="28px" height="28px">
+							</p>
+						</div>
+					</div><!--/panel-->
+				</div><!--/col-->
+
+				<div class="col-sm-4 col-xs-6">
+
+					<div class="panel panel-default" style="height: 700;">
+						<div class="panel-thumbnail"><img src="http://www.hdwallpapersinn.com/wp-content/uploads/2015/01/Landscape-wallpapers-1.jpeg" class="img-responsive"></div>
+						<div class="panel-body">
+							<p class="lead">personal template</p>
+							<p>902 Followers, 88 Posts</p>
+
+							<p>
+								<img src="https://lh5.googleusercontent.com/-AQznZjgfM3E/AAAAAAAAAAI/AAAAAAAAABA/WEPOnkQS_20/s28-c-k-no/photo.jpg" width="28px" height="28px">
+							</p>
+						</div>
+					</div><!--/panel-->
+				</div><!--/col-->
+
+
+				<div class="col-sm-4 col-xs-6">
+
+					<div class="panel panel-default">
+						<div class="panel-thumbnail"><img src="http://wallpaperput.com/wp-content/uploads/2015/01/landscape-mountain-flower-wallpaper.jpg" class="img-responsive"></div>
+						<div class="panel-body">
+							<p class="lead">Social Media</p>
+							<p>19k Followers, 789 Posts</p>
+
+							<p>
+								<img src="https://lh4.googleusercontent.com/-eSs1F2O7N1A/AAAAAAAAAAI/AAAAAAAAAAA/caHwQFv2RqI/s28-c-k-no/photo.jpg" width="28px" height="28px">
+								<img src="https://lh4.googleusercontent.com/-9Yw2jNffJlE/AAAAAAAAAAI/AAAAAAAAAAA/u3WcFXvK-g8/s28-c-k-no/photo.jpg" width="28px" height="28px">
+							</p>
+						</div>
+					</div><!--/panel-->
+
+				</div><!--/col-->
+
+			</div>
+
+			<div class="container">
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2>Beautiful Personal Templates</h2>
+
+					<hr>
+					<h4>
+						Nam quam nunc, blandit vel, luctus pulvinar, hendrerit
+					</h4>
+					<p>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed  <a href="http://bootply.com">Find more on</a>,facebook.</p>
+					<hr>
+					<ul class="list-inline center-block" id="social_icons">
+						<li><a href="http://facebook.com/"><img src="http://xiloaudio.com/wp-content/uploads/2014/08/soc_fb.png" width="42" height="42"></a></li>
+						<li><a href="http://twitter.com/"><img src="data:image/png;base64,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" width="42" height="42"></a></li>
+						<li><a href="http://google.com/"><img src="https://www.fiswebdesign.com/wp-content/uploads/2014/07/google-plus-social-media-management.jpg" width="42" height="42"></li>
+					</ul>
+
+				</div><!--/col-->
+			</div><!--/container-->
+
+		</div><!--row-->
+	</div><!--conatiner bg-4-->
+
+
+
+	<!--page ends here-->
 
 
 </div><!--wrap ends here-->
 
 <div id="footer">
-  <div class="container">
-    <p class="text-muted">This is a bootstrap site. <a href="http://www.pallavi.3@tcs.com">pallavi.com</a></p>
-  </div>
+	<div class="container">
+		<p class="text-muted">This is a bootstrap site. <a href="http://www.pallavi.3@tcs.com">pallavi.com</a></p>
+	</div>
 </div>
 
 <ul class="nav pull-right scroll-top">
-  <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+	<li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
 </ul>
-
-
-
-</body>
-	  <script>
-		  $(document).ready(function(){
+<script type="text/javascript">
+	$(document).ready(function(){
 $('#nav').affix({
   offset: {
     top: $('header').height()-$('#nav').height()
@@ -454,8 +928,9 @@ $('#nav .navbar-nav li>a').click(function(){
 
 
 });
+</script>
 
-	  </script>
-  </body>
+
+</body>
 
 </html>
