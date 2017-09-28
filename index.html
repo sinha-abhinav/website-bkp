@@ -10,7 +10,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <style>
-	  html,
+	html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
@@ -222,6 +222,34 @@ section {
   padding-top:30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(20,20,20,0.2)),to(rgba(255,255,255,0)), color-stop(1,#000));
 }
+.text-danger{
+color: #f35958 !important;
+}
+.semi-bold{
+  font-weight: 500 !important;
+}
+.text-rightDescription{
+background-color: /*#d8ebf4*/  #f2f2f2 !important;
+padding: 14px 16px !important;
+border-radius: 3px;
+font-size: 13px;
+
+}
+.advisor{
+  font-size: 11px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-top: 5px;
+}
+.semi-bold{
+  font-weight: 600;
+}
+.m-t-10{
+  margin-top: 10px;
+}
+.m-b-10{
+  margin-bottom: 10px;
+}
 </style>
   </head>
  <body>
@@ -233,21 +261,11 @@ section {
 					<div class="col-md-6"><!--col-md-6 starts here-->
 						<h1 class="text-center"><a href="#" title="bootstrap-header">Abhinav Sinha</a>
 							<p class="lead text-center"> Post Graduate Researcher</p>
-
 						</h1>
-
-
 					</div><!--col-md-6 ends here-->
-
-
-
-
-
 				</div><!--row ends here-->
 			</div><!--container ends here-->
-
 		</header><!--header ends here -- >
-
 		<!--fixed navbar starts here-->
 		<div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
 			<div class="container">
@@ -281,12 +299,8 @@ section {
 				</div><!--/.nav-collapse -->
 			</div><!--/.container -->
 		</div><!--/.navbar -->
-
 		<!--fixed navbar ends here-->
-
 		<!--page begins here-->
-		
-
 		<section class="bg-1" style="margin-top: -20px;">
 			<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Quotes By Abhinav Sinha.</h2>
 			</div>
@@ -296,18 +310,20 @@ section {
 		<div class="container"><!-- container starts-->
 			<div class="col-sm-10 col-sm-offset-1">
 				<div class="page header text-center">
-					<h1>Duis aute irure dolor in reprehenderit in voluptate</h1>
+					<h1>About me</h1>
 				</div>
-				<p class="lead text-center">fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa .</p>
-				<p class="text-center">fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+				<p class="lead text-center">To be provided by Abhinav Sinha</p>
+				<p class="text-center">Description</p>
 			</div>
 		</div><!-- container ends-->
-
 		<div class="divider" id="section2">
 		</div>
+
+		<section class="bg-1">
+			<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Quotes By Abhinav Sinha.</h2>
+			</div>
+		</section>
 		
-
-
 		<div class="container" id="section3">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h2>Education</h2>
@@ -317,9 +333,9 @@ section {
 					<p>Masters of Technology(2016-2018)</p>
 				</div>
 
-				<div class="col-md-8">
-					Indian Institute of Engineering Science &
-					Technology, Shibpur, India
+				<div class="col-md-8 text-rightDescription">
+					<div>
+						<p class="text-danger semi-bold">Indian Institute of Engineering Science & Technology, Shibpur, India</p>
 					GPA: 8.5 · Specialization: Mechatronics & Robotics · School: Mechatronics and Robotics
 					Thesis: Cooperative control of multiple mobile agents for locating source of odor
 					(ongoing work)
@@ -329,18 +345,21 @@ section {
 					flexibility, robustness, scalability; this work focuses on the distributed
 					coordinated control of multiple robots deployed in an environment to locate an
 					odor source.
-					Advisor: Dr. Amol Bhondekar
+					</div>
+					
+					<p class="advisor">Advisor: Dr. Amol Bhondekar </p>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row" style="margin-top: 10px;">
 				<div class="col-md-4">
 					Bachelor of Technology(2010- 2014)
 				</div>
 
-				<div class="col-md-8">
-					Kalinga Institute of Industrial Technology (KIIT
-					University), India
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">Kalinga Institute of Industrial Technology (KIIT
+					University), India </p>
 					GPA: 8.48 · Major: Electronics & Instrumentation engineering · School:
 					Electronics Engineering
 					Thesis: Automated PID tuning of line follower robot
@@ -359,7 +378,8 @@ section {
 					smoothness, we have implemented Proportional-Integral-Derivative control
 					based on the informations that can be gathered from the movement of the
 					robot.
-					Advisor: Prof. Rajiv Kumar Mishra
+					</div>
+					<p class="advisor">Advisor: Prof. Rajiv Kumar Mishra</p>
 				</div>
 			</div>
 			<!--col-->
@@ -371,211 +391,217 @@ section {
 				<h2 style="paddind:70px; background-color:rgba(5,5,4,.7); color: white;"> Eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.Maecenas tempus, tellus eget condimentum</h2>
 			</div>
 		</section>
-
 		<div class="container" id="section1">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h2>Refereed Jounrnals</h2>
 			</div>
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					<p>IEEE</p>
 				</div>
 
-				<div class="col-md-8">
-					Under Review
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="semi-bold text-danger">Under Review</p>
+					
 					Consensus tracking in multi agent system with nonlinear and non identical
 					dynamics via event driven sliding modes, under review, IEEE Transactions on
 					Automatic Control.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
-
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
+					
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					Taylor & Francis
 				</div>
 
-				<div class="col-md-8">
-					Under Review
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">Under Review</p>
+					
 					Consensus in first order nonlinear heterogeneous multi agent system with
 					event based sliding mode control, under review, International Journal of Control.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
 				</div>
+				
 			</div>
-
-			<div class="row">
+			
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					Springer
 				</div>
-				<div class="col-md-8">
-					Under Review
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="semi-bold text-danger">Under Review</p>
+					
 					Consensus in second order heterogeneous multi agent systems using event
 					triggered sliding mode control, under review, Multidimensional Systems and Signal
 					Processing.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
-
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					Elseiver
-
 				</div>
-
-				<div class="col-md-8">
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="semi-bold text-danger">Under Review</p>
 					Control of a nonlinear continuous stirred tank reactor via event triggered
 					sliding modes, under review, Chemical Engineering Science.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
 				</div>
 				<div>
 				</div>
 			</div>
-			
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-
-				<div class="col-md-8">
-					Under Review
-					<hr/>
-
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">Under Review</p>
+					
 					Event driven sliding mode for congestion control in cognitive radio networks,
 					under review, IEEE Communication Letters.
 					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
-					Sekhar Singh, Prasanna Kumar Sahu
+					</div>
+					<p class="advisor">Sekhar Singh, Prasanna Kumar Sahu </p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					Springer
 				</div>
-				<div class="col-md-8">
-					Under review
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+				<div>
+					<p class="text-danger semi-bold">Under review</p>
+					
 					Congestion control in Cognitive Radio Networks with event triggered sliding
 					mode, under review, Wireless Networks.
 					Authors: Tirtha Majumder, Rajiv Kumar Mishra, Abhinav Sinha, Sudhansu
-					Sekhar Singh, Prasanna Kumar Sahu
+					</div>
+					<p class="advisor">Sekhar Singh, Prasanna Kumar Sahu</p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					International Journal of Electronics and Communication Technology
 				</div>
-				<div class="col-md-8">
-					January 2015
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">January 2015</p>
+				
 					Nonlinear autonomous altitude control of miniature helicopter UAV based on
 					sliding mode methodology, International Journal of Electronics and Communication
 					Technology, vol. 61, spl.- 1, Jan- Mar 2015, proceedings of International Conference on
 					Foundatons and Frontiers in Computer, Communication and Electrical Engineering
 					(C2E2 ‘15), Mankundu, India, 9th-10th January, 2015.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
 				</div>
 			</div>
-
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h2>Peer Reviewed Conference Proceedings</h2>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-
-				<div class="col-md-8">
-					Under Review
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+				<div>
+				<p class="text-danger semi-bold">	Under Review </p>
 					Temperature regulation in a Continuous Stirred Tank Reactor using event
 					triggered sliding mode control, under review, Indian Control Conference 2018,
 					Indian Institute of Technology, Kanpur, India, 4th-6th January, 2018.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
-
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-				<div class="col-md-8">
-					October 2015
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">October 2015</p>
+					
 					Robust nonlinear congestion controller for time delayed and uncertain cognitive
 					radio based wireless network, 2015 IEEE Power, Communication and Information
 					Technology Conference (PCITC), Bhubaneswar, India, 15th-17th October, 2015.
-					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
-					Sekhar Singh, Prasanna Kumar Sahu
+					</div>
+					<p class="advisor">Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu</p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-				<div class="col-md-8">
-					March 2015
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">March 2015</p>
+					
 					Sliding mode controller design for high performance of permanent magnet
 					stepper motor, 2015 IEEE International Conference on Innovations in Information,
 					Embedded and Communication Systems (ICIIECS), Coimbatore, India, 19th-20th
 					March, 2015.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra, Tirtha Majumder
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra, Tirtha Majumder</p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-				<div class="col-md-8">
-					March 2015
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">March 2015</p>
+					
 					Robust altitude tracking of a miniature helicopter UAV based on sliding mode,
 					2015 IEEE International Conference on Innovations in Information, Embedded and
 					Communication Systems (ICIIECS), Coimbatore, India, 19th-20th March, 2015.
-					Authors: Abhinav Sinha, Rajiv Kumar Mishra
+					</div>
+					<p class="advisor">Authors: Abhinav Sinha, Rajiv Kumar Mishra</p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-				<div class="col-md-8">
-					March 2015
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					<div>
+					<p class="text-danger semi-bold">March 2015</p>
+					
 					Robust nonlinear congestion controller for cognitive radio based wireless
 					network, 2015 IEEE International Conference on Innovations in Information,
 					Embedded and Communication Systems (ICIIECS), Coimbatore, India, 19th-20th
 					March, 2015.
-					Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
-					Sekhar Singh, Prasanna Kumar Sahu
+					</div>
+					<p class="advisor">Authors: Tirtha Majumder, Abhinav Sinha, Rajiv Kumar Mishra, Sudhansu
+					Sekhar Singh, Prasanna Kumar Sahu</p>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row m-b-10">
 				<div class="col-md-4">
 					IEEE
 				</div>
-				<div class="col-md-8">
-					Feburary 2015
-					<hr/>
+				<div class="col-md-8 text-rightDescription">
+					
+					<p class="text-danger ">Feburary 2015</p>
+					
 					Robust and Smooth Nonlinear Control of an Industrial Robot for Automated
 					Pick and Place, 2015 IEEE International Conference on Computing Communication
 					Control and Automation (ICCUBEA), Pune, India, 26th-27th February, 2015.
 					Authors: Abhinav Sinha, Rajiv Kumar Mishra, Supratik Jaiswa
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					IEEE
@@ -591,12 +617,10 @@ section {
 					Anuradha C. Ranasinghe
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					IEEE
 				</div>
-
 				<div class="col-md-8">
 					December 2014
 					<hr/>
@@ -607,7 +631,6 @@ section {
 					Kavinda K. Rasnayake
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					IEEE
@@ -639,7 +662,6 @@ section {
 					Authors: Abhinav Sinha, Rajiv Kumar Mishra
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					CRC Press/ Taylor & Francis Group
@@ -657,22 +679,16 @@ section {
 			</div>
 			<!--col-->
 		</div><!--container ends here-->
-
 		<section class="bg-1">
 			<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Aenean imperdiet. Etiam ultricies nisi vel augue. </h2>
 			</div>
-
-
 		</section>
-
 		<div class="divider">
 		</div>
-
 		<div class="container" id="section7">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h2>Experience</h2>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					Central Scientific Instruments Organisation, Council of Scientific and Industrial Research(CSIR-CSIO),India 
@@ -691,7 +707,6 @@ section {
 					Website: CSIR, CSIO
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					TATA Consultancy Services Limited
@@ -699,7 +714,6 @@ section {
 				<div class="col-md-8">
 					<span>Sep'14 - Jul'16</span>&nbsp;&nbsp;<span>Consultant, Automation & Control Systems</span>
 					<hr/>
-
 					Worked on tools like WinCC SCADA, Kepware, Step7, Prosoft, etc. for Control
 					System Integration (CSI); GE IP Proficy Suite, SAP ME, etc. for Manufacturing
 					Execution Systems (MES); and SAP MII for Enterprise Manufacturing
@@ -710,10 +724,8 @@ section {
 					manufacturing units. Worked towards enhancing efficiency in Manufacturing
 					Operations Management (MOM).
 					Website: TCS
-
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					TATA Consultancy Services Limited- Global Learning Centre,
@@ -732,7 +744,6 @@ section {
 					Website: TCS
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					TATA Steel, India
@@ -766,19 +777,14 @@ section {
 					Stations in the circle.
 					Website: BSNL
 				</div>
-
 			</div>
-
-
 			<div class="col-sm-8 col-sm-offset-2 text-center">
 				<h2>Position Held</h2>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					IEEE CSS-Indian Control Conference
 				</div>
-
 				<div class="col-md-8">
 					<span>Jul'14 - Present</span>&nbsp; &nbsp;<span>Reviewer, Indian Control Conference - India</span>
 					<hr/>
@@ -789,7 +795,6 @@ section {
 					Website: Indian Control Conference
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-4">
 					IEEE
@@ -903,6 +908,7 @@ section {
 <ul class="nav pull-right scroll-top">
 	<li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
 </ul>
+
 <script type="text/javascript">
 	$(document).ready(function(){
 $('#nav').affix({
