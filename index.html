@@ -10,14 +10,20 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
 <style>
-	html,
+html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
   -webkit-font-smoothing: antialiased;
-  font: normal 14px arial,sans-serif;
+  /*font: normal 14px arial,sans-serif;*/
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.highlight{
+  font-style: italic;
+  font-weight: 600;
+}
 .row {
   margin-left:0px;
   margin-right:0px;
@@ -249,8 +255,7 @@ font-size: 13px;
 }
 .m-b-10{
   margin-bottom: 10px;
-}
-</style>
+}</style>
   </head>
  <body>
 	<div id="wrap">
@@ -282,13 +287,13 @@ font-size: 13px;
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav ">
-						<li><a href="#">Home</a></li>
+						<li><a href="#section1">Home</a></li>
 						<li><a href="#section2">About</a></li>
 						<li><a href="#section3">Education</a></li>
-						<li><a href="#section1">Research Publications</a></li>
-						<li><a href="#section4">Experience</a></li>
-						<li><a href="#section5">Awards and Honors</a></li>
-						<li><a href="#section6">Contact</a></li>
+						<li><a href="#section4">Research Publications</a></li>
+						<li><a href="#section5">Experience</a></li>
+						<li><a href="#section6">Awards and Honors</a></li>
+						<li><a href="#section7">Contact</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -305,13 +310,13 @@ font-size: 13px;
 		</div><!--/.navbar -->
 		<!--fixed navbar ends here-->
 		<!--page begins here-->
-		<section class="bg-1" style="margin-top: -20px;">
+		<section class="bg-1" style="margin-top: -20px;" id="section1">
 			<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Researcher in Systems and Control Theory</h2>
 			</div>
 		</section>
 		<div class="divider">
 		</div>
-		<div class="container"><!-- container starts-->
+		<div class="container" id="section2"><!-- container starts-->
 			<div class="col-sm-10 col-sm-offset-1">
 				<div class="page header text-center">
 					<h1>About</h1>
@@ -355,7 +360,7 @@ font-size: 13px;
 				<h2>Education</h2>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 highlight">
 					<p>Master of Technology (2016-2018)</p>
 				</div>
 
@@ -379,7 +384,7 @@ font-size: 13px;
 			</div>
 
 			<div class="row" style="margin-top: 10px;">
-				<div class="col-md-4">
+				<div class="col-md-4 highlight">
 					Bachelor of Technology (2010- 2014)
 				</div>
 
@@ -413,7 +418,7 @@ font-size: 13px;
 			</div><!--container ends here-->
 			<div class="divider">
 			</div>
-			<section class="bg-3" id="section4">
+			<section class="bg-3">
 				<div  class="col-sm-6 col-sm-offset-3 text-center">
 					<h2 style="paddind:70px; background-color:rgba(5,5,4,.7); color: white;"> "The woods are lovely, dark and deep,<br>
 														But I have promises to keep,<br>
@@ -423,12 +428,12 @@ font-size: 13px;
 					</h2>
 				</div>
 			</section>
-			<div class="container" id="section1">
+			<div class="container" id="section4">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<h2>Refereed Journals</h2>
 				</div>
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						<p>IEEE</p>
 					</div>
 
@@ -445,7 +450,7 @@ font-size: 13px;
 					</div>
 				</div>
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						Taylor & Francis
 					</div>
 
@@ -462,7 +467,7 @@ font-size: 13px;
 				</div>
 
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						Springer
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -478,7 +483,7 @@ font-size: 13px;
 				</div>
 				
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						Elsevier
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -494,7 +499,7 @@ font-size: 13px;
 
 				
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						Elsevier
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -509,7 +514,7 @@ font-size: 13px;
 					</div>
 				</div>
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						IEEE
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -524,7 +529,7 @@ font-size: 13px;
 					</div>
 				</div>
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						Springer
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -539,7 +544,7 @@ font-size: 13px;
 					</div>
 				</div>
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						International Journal of Electronics and Communication Technology
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -559,7 +564,7 @@ font-size: 13px;
 					<h2>Peer Reviewed Conference Proceedings</h2>
 				</div>
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						IEEE
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -573,7 +578,7 @@ font-size: 13px;
 				</div>
 				
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						IFAC
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -587,7 +592,7 @@ font-size: 13px;
 				</div>
 				
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						IFAC
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -602,7 +607,7 @@ font-size: 13px;
 				
 
 				<div class="row m-b-10">
-					<div class="col-md-4">
+					<div class="col-md-4 highlight">
 						IEEE
 					</div>
 					<div class="col-md-8 text-rightDescription">
@@ -618,7 +623,7 @@ font-size: 13px;
 						</div>
 					</div>
 					<div class="row m-b-10">
-						<div class="col-md-4">
+						<div class="col-md-4 highlight">
 							IEEE
 						</div>
 						<div class="col-md-8 text-rightDescription">
@@ -634,7 +639,7 @@ font-size: 13px;
 						</div>
 					</div>
 					<div class="row m-b-10">
-						<div class="col-md-4">
+						<div class="col-md-4 highlight">
 							IEEE
 						</div>
 						<div class="col-md-8 text-rightDescription">
@@ -649,7 +654,7 @@ font-size: 13px;
 						</div>
 					</div>
 					<div class="row m-b-10">
-						<div class="col-md-4">
+						<div class="col-md-4 highlight">
 							IEEE
 						</div>
 						<div class="col-md-8 text-rightDescription">
@@ -666,7 +671,7 @@ font-size: 13px;
 							</div>
 						</div>
 						<div class="row m-b-10">
-							<div class="col-md-4">
+							<div class="col-md-4 highlight">
 								IEEE
 							</div>
 							<div class="col-md-8 text-rightDescription">
@@ -680,7 +685,7 @@ font-size: 13px;
 							</div>
 						</div>
 						<div class="row m-b-10">
-							<div class="col-md-4">
+							<div class="col-md-4 highlight">
 								IEEE
 							</div>
 							<div class="col-md-8 text-rightDescription">
@@ -697,7 +702,7 @@ font-size: 13px;
 								</div>
 							</div>
 							<div class="row m-b-10">
-								<div class="col-md-4">
+								<div class="col-md-4 highlight">
 									IEEE
 								</div>
 								<div class="col-md-8 text-rightDescription">
@@ -714,7 +719,7 @@ font-size: 13px;
 								</div>
 							</div>
 							<div class="row m-b-10 ">
-								<div class="col-md-4">
+								<div class="col-md-4 highlight">
 									IEEE
 								</div>
 								<div class="col-md-8 text-rightDescription">
@@ -731,12 +736,12 @@ font-size: 13px;
 									<h2>Book Chapters</h2>
 								</div>
 								<div class="row m-b-10">
-									<div class="col-md-4">
+									<div class="col-md-4 highlight">
 										CRC Press/ Taylor & Francis Group
 									</div>
 									<div class="col-md-8 text-rightDescription">
 										<div>
-											<p>January 2016</p>
+											<p class="text-danger semi-bold">January 2016</p>
 
 											Smooth sliding mode control of a nonlinear CSTR using an inverse hyperbolic
 											function-based law, Foundations and Frontiers in Computer, Communication and
@@ -747,7 +752,7 @@ font-size: 13px;
 									</div>
 								</div>
 								<div class="row m-b-10">
-									<div class="col-md-4">
+									<div class="col-md-4 highlight">
 										CRC Press/ Taylor & Francis Group
 									</div>
 									<div class="col-md-8 text-rightDescription">
@@ -771,12 +776,12 @@ font-size: 13px;
 								</section>
 								<div class="divider">
 								</div>
-								<div class="container" id="section7">
+								<div class="container" id="section5">
 									<div class="col-sm-8 col-sm-offset-2 text-center">
 										<h2>Experience</h2>
 									</div>
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											Central Scientific Instruments Organisation, Council of Scientific and Industrial Research(CSIR-CSIO),India 
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -796,7 +801,7 @@ font-size: 13px;
 										</div>
 									</div>
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											TATA Consultancy Services Limited
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -817,7 +822,7 @@ font-size: 13px;
 										</div>
 									</div>
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											TATA Consultancy Services Limited- Global Learning Centre,
 											Trivandrum,India
 										</div>
@@ -837,7 +842,7 @@ font-size: 13px;
 										</div>
 									</div>
 									<div class="row  m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											TATA Steel, India
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -855,7 +860,7 @@ font-size: 13px;
 										</div>
 									</div>
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											Bharat Sanchar Nigam Limited, India
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -876,7 +881,7 @@ font-size: 13px;
 										<h2>Positions Held</h2>
 									</div>
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											IEEE CSS-Indian Control Conference
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -892,7 +897,7 @@ font-size: 13px;
 										</div>
 									</div>
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											IEEE
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -913,13 +918,13 @@ font-size: 13px;
 									<div class=" col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">Aenean imperdiet. Etiam ultricies nisi vel augue. </h2>
 									</div>
 								</section>
-								<div class="container" id="section8">
+								<div class="container" id="section6">
 									<div class="col-sm-8 col-sm-offset-2 text-center">
 										<h2>Awards & Honors</h2>
 									</div>
 
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											July 2016
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -937,7 +942,7 @@ font-size: 13px;
 									</div>
 
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											December 2015
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -951,7 +956,7 @@ font-size: 13px;
 									</div>
 
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											July 2015
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -965,7 +970,7 @@ font-size: 13px;
 									</div>
 
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											February 2015
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -979,7 +984,7 @@ font-size: 13px;
 									</div>
 
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											August 2013
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -991,7 +996,7 @@ font-size: 13px;
 									</div>
 
 									<div class="row m-b-10">
-										<div class="col-md-4">
+										<div class="col-md-4 highlight">
 											March 2012
 										</div>
 										<div class="col-md-8 text-rightDescription">
@@ -1006,20 +1011,45 @@ font-size: 13px;
 								</div>
 
 
-									<section class="bg-1">
+									<section class="bg-1" id="section7">
 									<div class=" col-sm-6 col-sm-offset-3 text-center"><div style="padding:50px; background-color:rgba(5,5,4,.7); color: white;">
-
-										<div class="row">
-										<div class="col-md-2">
-										  <img src="`gmail.png" width="30" height="30" />
+										<div style="display: inline-block;">
+										  <img src="gmail.png" width="30" height="30" />
 										</div>
-										<div class="col-md-10">
+										<div style="display: inline-block;">
 										  <p>
-										  	sinha.abhinav@outlook.com
-										  </p>
-										  <p>
+										  	sinha.abhinav@outlook.com, 
+										  
+										  
 										  	abhinav.sinha.cs@gmail.com
 										  </p>
+										</div>
+
+										<div class="row">
+										
+										<!-- facebook -->
+										<div class="col-md-2">
+										<a href="https://www.facebook.com/sinha.abhinav.en"><img src="facebook.png" width="25" height="15" /></a>
+										</div>
+										<!-- LinkedIn -->
+										<div class="col-md-2">
+										<a href="https://www.linkedin.com/in/abhinav24/"><img src="linkedin.png" width="25" height="20" /></a>
+										</div>
+										<!-- Twitter-->
+										<div class="col-md-2">
+										<a href="https://twitter.com/DrAbhinavSinha"><img src="twitter.jpg" width="30" height="30" /></a>
+										</div>
+
+										<div class="col-md-2">
+										<a href="https://www.scopus.com/authid/detail.uri?authorId=57195622957"><img src="Scopus.png" width="30" height="30"/></a>
+										</div>
+
+										<div class="col-md-2">
+										<a href="http://www.researcherid.com/rid/M-8328-2017"><span id='badgeCont90563' style='width:26px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont90563&mashlet=badge&showTitle=false&className=a&rid=M-8328-2017&size=small'></script></span></a>
+										</div>
+
+										<div class="col-md-2">
+										<a href="http://orcid.org/0000-0001-6419-2353"><img src="orcid.png" width="30" height="30" /></a>
 										</div>
 										</div>
 										<!-- <div class="row">
@@ -1051,7 +1081,7 @@ font-size: 13px;
 							<li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
 						</ul>
 
-
+	
 
 <script type="text/javascript">
 	$(document).ready(function(){
